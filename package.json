@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Benjamin Sander",
+  "license": "MIT",
+  "keywords": [
+    "portfolio"
+  ],
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
